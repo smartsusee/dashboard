@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+#container_1 {
+  width: 950px;
+  height: 400px;
+  background-color: rgb(188, 164, 164);
+  overflow: scroll !important;
+}
+td {
+  font-size: 10px;
+}
+th {
+  font-size: 11px;
+  letter-spacing: 0.6px;
+}
+/* table,
+tr,
+td,
+th {
+  border: 1px solid black;
+} */
+/* th {
+  font-size: 10px;
+}
+
+table {
+  width: 1500px;
+}
+
+
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+} */
+
+/* .map_data {
+  font-size: 10px;
+} */
+.active {
+  /* background-color: rgb(170, 212, 219); */
+  background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  width: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+span:hover {
+  font-size: 10px;
+  transition: 0.2;
+}
+.pagenation:hover {
+  cursor: pointer;
+}
+.pagenation {
+  position: fixed;
+  display: flex;
+  /* background-color: red; */
+  width: 200px;
+  justify-content: space-around;
+  margin-left: 350px;
+  font-size: 14px;
+  margin-top: 200px;
+  text-shadow: 10px 10px 10px black;
+}

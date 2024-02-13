@@ -1,0 +1,252 @@
+https://coreui.io/react/docs/components/spinner/#growing-spinner
+
+
+ <table id="details">
+          <tr>
+            <th>
+              <span>Address:</span>
+            </th>
+            <td>
+              <input type="text" onChange={(e) => setAddress(e.target.value)} value={Address} />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>CGPAPercentage:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => CGPAPercentage(e.target.value)}
+                value={CGPAPercentage}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>Contact:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  Contact(e.target.value)
+                }}
+                value={Contact}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>DateofBirth:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  DateofBirth(e.target.value)
+                }}
+                value={DateofBirth}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>Email:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  Email(e.target.value)
+                }}
+                value={Email}
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <span>FatherName:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  FatherName(e.target.value)
+                }}
+                value={FatherName}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>FatherNumber:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  FatherNumber(e.target.value)
+                }}
+                value={FatherNumber}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>FirstName:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  FirstName(e.target.value)
+                }}
+                value={FirstName}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>Gender:</span>
+            </th>
+            <td>
+              <span>male</span>
+              <input
+                type="radio"
+                onChange={(e) => {
+                  Gender(e.target.value)
+                }}
+                value={Contact}
+                name="gender"
+              />
+              <span style={{ marginLeft: '20px' }}>female</span>
+              <input
+                type="radio"
+                onChange={(e) => {
+                  Gender(e.target.value)
+                }}
+                value={Contact}
+                name="gender"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>LastName:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  LastName(e.target.value)
+                }}
+                value={LastName}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>MaritalStatus:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  MaritalStatus(e.target.value)
+                }}
+                value={MaritalStatus}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>MotherName:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  MotherName(e.target.value)
+                }}
+                value={MotherName}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>PaidAmount:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  PaidAmount(e.target.value)
+                }}
+                value={PaidAmount}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>PassedOutYear:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  PassedOutYear(e.target.value)
+                }}
+                value={PassedOutYear}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>Qualification:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  Qualification(e.target.value)
+                }}
+                value={Qualification}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>RemainingAmount:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  RemainingAmount(e.target.value)
+                }}
+                value={RemainingAmount}
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <span>TotalAmount:</span>
+            </th>
+            <td>
+              <input
+                type="text"
+                onChange={(e) => {
+                  TotalAmount(e.target.value)
+                }}
+                value={TotalAmount}
+              />
+            </td>
+          </tr>
+          <tr key="">
+            <td>
+              <button onClick={cilck_btn}>Submit</button>
+            </td>
+          </tr>
+        </table>
